@@ -56,3 +56,49 @@ Step 23: Eat
 
 
 
+Console.WriteLine("Ce suma doriti sa retrageti?");
+string input = Console.ReadLine();
+double suma = Convert.ToInt32(input);
+double procent = 5;
+if ((double) suma <= 20)
+{
+    Console.WriteLine("Taxa dumneavoasta este 1$");
+}
+else if ((double) suma > 20)
+{
+    double taxa = (double)((suma * procent) / 100);
+    Console.WriteLine("Taxa dumneavoastra este: " + taxa + "$");
+
+
+
+
+
+
+
+
+
+int bancnota1 = 1, bancnota2 = 5, bancnota3 = 10, bancnota4 = 20, bancnota5 = 50, bancnota6 = 100, bancnota7 = 200, bancnota8 = 500;
+Console.WriteLine("Introduceti suma dorita");
+string input = Console.ReadLine();
+int suma = Convert.ToInt32(input);
+int rezultat1 = suma / bancnota8; int rest1 = suma % bancnota8;
+int rezultat2 = rest1 / bancnota7; int rest2 = rest1 % bancnota7;
+int rezultat3 = rest2 / bancnota6; int rest3 = rest2 % bancnota6;
+int rezultat4 = rest3 / bancnota5; int rest4 = rest3 % bancnota5;
+int rezultat5 = rest4 / bancnota4; int rest5 = rest4 % bancnota4;
+int rezultat6 = rest5 / bancnota3; int rest6 = rest5 % bancnota3;
+int rezultat7 = rest6 / bancnota2; int rest7 = rest6 % bancnota2;
+int rezultat8 = rest7 / bancnota1;
+Console.WriteLine("Bancnotele dumneavoastra sunt urmatoarele:");
+Console.WriteLine(rezultat1 +"x500");
+Console.WriteLine(rezultat2 +"x200");
+Console.WriteLine(rezultat3 +"x100");
+Console.WriteLine(rezultat4 +"x50");
+Console.WriteLine(rezultat5 +"x20");
+Console.WriteLine(rezultat6 + "x10");
+Console.WriteLine(rezultat7 + "x5");
+Console.WriteLine(rezultat8 + "x1");
+
+
+
+

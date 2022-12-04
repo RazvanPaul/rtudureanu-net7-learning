@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
 //                  Exercise 1
 /*int x=0;
@@ -138,3 +139,65 @@ for (i = 0; i < j; i++)
 {
     Console.WriteLine(array2[i]);
 }*/
+
+
+//                      Exercise 6- Algorithms
+/*int n=10;
+int[] array = new int[n];
+int i = 0, j = 0, swap=0;
+Console.Write("How many elements do you want the array to have?");
+n = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input {0} elements in the array :\n", n);
+for (i = 0; i < n; i++)
+{
+    Console.Write("element - {0} : ", i);
+    array[i] = Convert.ToInt32(Console.ReadLine());
+
+}
+
+for(i = 0; i < n-1; i++)
+{
+    for(j = 0; j < n-i-1; j++)
+    {
+        if (array[j] > array[j]+1)
+        {
+            swap=array[j];
+            array[j] = array[j+1];
+            array[j+1] = swap;
+        }
+    }
+    
+}
+
+    for (i = 0; i < n; i++)
+{
+    Console.WriteLine(array[i]);
+}*/
+int[] arr = new int[10] { 23, 9, 85, 2, 99, 34, 60, 15, 100, 1 };
+int n = 10, i, j, val, cond;
+Console.WriteLine("Insertion Sort");
+Console.Write("Initial array is: ");
+for (i = 0; i < n; i++)
+{
+    Console.Write(arr[i] + " ");
+}
+for (i = 1; i < n; i++)
+{
+    val = arr[i];
+    cond = 0;
+    for (j = i - 1; j >= 0 && cond != 1;)
+    {
+        if (val < arr[j])
+        {
+            arr[j + 1] = arr[j];
+            j--;
+            arr[j + 1] = val;
+        }
+        else cond = 1;
+    }
+}
+Console.Write("Sorted Array is: ");
+for (i = 0; i < n; i++)
+{
+    Console.Write(arr[i] + " ");
+}

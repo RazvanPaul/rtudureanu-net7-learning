@@ -53,13 +53,30 @@ foreach (string transaction in transactions)
     Console.WriteLine(transaction);
 }*/
 
-Circle myCircle = new Circle(5);
+/*Circle myCircle = new Circle(5);
 Rectangle myRectangle = new Rectangle(5, 10);
 
 Console.WriteLine(myCircle.GetArea()); 
 Console.WriteLine(myCircle.GetPerimeter()); 
 
 Console.WriteLine(myRectangle.GetArea()); 
-Console.WriteLine(myRectangle.GetPerimeter()); 
+Console.WriteLine(myRectangle.GetPerimeter()); */
 
+
+//Console.WriteLine(Enum.GetName(typeof(months), 7));
+
+/*Calender Calender= new Calender();
+Calender.date = 23;
+Calender.Print();*/
+
+/*double z = 2;
+double t = 10;
+
+void Method(out double t, double z)
+{
+    t = 25;
+    z = 25;
+}
+Method(out t, z);
+Console.WriteLine(z+ " "+ t);*/
 

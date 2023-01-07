@@ -206,7 +206,7 @@ namespace OOP
         }
     }*/
 
-    public abstract class Shape
+    /*public abstract class Shape
     {
 
         public abstract double GetArea();
@@ -226,7 +226,7 @@ namespace OOP
 
         public Circle(double radius)
         {
-            this.radius = radius;
+            this.Radius = radius;
         }
 
         
@@ -258,10 +258,64 @@ namespace OOP
         {
             return 2 * width + 2 * height;
         }
-    }
+    }*/
 
+    /*public class Calender
+    {
 
-    
+        public enum days
+        {
+            Monday,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday
+        }
+        public enum months
+        {
+            January = 1,
+            February,
+            March,
+            April,
+            May,
+            June,
+            July,
+            August,
+            September,
+            October,
+            November,
+            December
 
+        }
+
+        public int date
+        {
+            get;
+            set;
+        }
+        
+        public void Print()
+        {
+            Console.WriteLine($"Today is {days.Monday}, {months.December}, {date}");
+            return;
+
+        }
+
+    }*/
+
+    /*public class Exercise
+    {
+        double x = 2;
+        double y = 10;
+        public void Calcul(out double y)
+        {
+            y = x * 2;
+            x = 2;
+            Console.WriteLine(y);
+        }
+        
+    }*/
 
 }

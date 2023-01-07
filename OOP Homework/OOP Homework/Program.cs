@@ -72,4 +72,4 @@ faculties.Add(new Faculty("Mary", "Jones", 111111, "Math"));
 faculties.Add(new Faculty("Bob", "Smith", 222222, "English"));*/
 
 //                         Exercise 6
-Student razvan = new Student("Razvan", 20 / 06 / 2019, 20 / 06 / 2022, "Alexandru Ioan Cuza", 23 / 06 / 1998);
+

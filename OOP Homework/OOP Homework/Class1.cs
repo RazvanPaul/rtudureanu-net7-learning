@@ -323,7 +323,7 @@ namespace OOP_Homework
 
         //                                   Exercise 6
 
-        public class College
+        /*public class College
         {
             public string Name;
             public int FoundedYear;
@@ -391,18 +391,9 @@ namespace OOP_Homework
                 Specuialization = specuialization;
                 StudentsWhoGiveTheirDegree2 = studentsWhoGiveTheirDegree2;
             }
-        }
+        }*/
 
-        /*Create a class Professor with multiple constructors to initiliaze the following values:
-- Name
-- Faculity
-- Specialization
-- StudentsWhoGiveTheirDegree - List of students who give their degree
-
-We will have two constructors:
-    - name, faculity, specialization
-    - name, faculity, specialization, studentsWhoGiveTheirDegree*/
-
+       
 
 
 
